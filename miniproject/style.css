@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #6c757d; */
+    background-image: linear-gradient(#fbc0d3, #bc91d5);
+    /* color: #fb5607; */
+    height: 12vh;
+    border: 8px ;
+    border-color:#e87998;
+    /* border-radius: 50px; */
+    border-style: inset;
+    /* border: 4mm ridge rgba(211, 220, 50, .6); */
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    position: relative;
+    top: 15px;
+    color:black;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    font-size:50px;
+    word-spacing: 10px;
+    letter-spacing:2px;
+}
+.d-flex{
+    height:35px;
+    margin: 20px;
+    position:relative;
+    left:150px;
+    top:10px;
+}
+.mx-2{
+    height:40px;
+    margin: 20px;
+    position:relative;
+    left:150px;
+    top:10px;
+}
+
+/* .top {
+    display: flex;
+} */
+
+.photo {
+    width: 70vh;
+    display: flex;
+    gap: 40px;
+    margin: 50px 20px;
+    padding: 0px 150px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.myphoto {
+    display: flex;
+    flex-direction: column;
+    width: 69vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body {
+    /* background-color:rgb(233, 177, 159); */
+    background-image: linear-gradient(100deg, #f55299cc, rgba(220, 124, 124, 0.848), rgb(240, 54, 122));
+}
+img {
+    border: 1.5mm ridge #0d0f0f;
+    height: 250px;
+    height: 250px;
+}
+
+p {
+    font-weight: bolder;
+    font-size: larger;
+}
+h4{
+    color:rgba(5, 5, 25, 0.91);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    word-spacing:3px;
+    position:relative;
+    top:30px;
+    left:100px;
+}
+.audi{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+.icon{
+    display: flex;
+    margin:40px 0px;
+    position: relative;
+    right:10vh;
+    
+}
+
+footer {
+    /* background-color: #d19ea7; */
+    background-image: linear-gradient(#970735, #47a7dfa2);
+    color: black;
+    height: 12vh;
+    display: flex;
+    border-radius: 10px 100px / 120px;
+    /* border:solid#c9184a; */
+    font-family: 'Oswald', sans-serif;
+    border: thick double #e86389;
+    
+    
+}
